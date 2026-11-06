@@ -44,6 +44,24 @@ export default defineConfig({
           { text: 'Formatter Template', link: '/docs/template/formatter-template' },
         ]
       },
+
+      {
+        text: 'API',
+        items: [
+          { text: 'Overview', link: '/docs/api/' },
+          { text: 'Scene', link: '/docs/api/scene' },
+          { text: 'Provider', link: '/docs/api/provider' },
+          { text: 'Global', link: '/docs/api/global' },
+          { text: 'Audio', link: '/docs/api/audio' },
+          { text: 'Buzzer', link: '/docs/api/buzzer' },
+          { text: 'Font', link: '/docs/api/font' },
+          { text: 'Automation', link: '/docs/api/automation' },
+          { text: 'Playlist', link: '/docs/api/playlist' },
+          { text: 'Events', link: '/docs/api/events' },
+          { text: 'Files', link: '/docs/api/file' },
+          { text: 'OTA', link: '/docs/api/ota' },
+        ]
+      },
     ],
 
     socialLinks: [
